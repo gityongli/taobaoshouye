@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <!--引入flexible插件-->
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <!--引入矢量图标css-->
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/index2.css">
+</head>
+<body>
+<!--header部分开始-->
+<header>
+    <div>
+        <a href="">详情</a>
+        <a href="">评价</a>
+        <a href="">参数</a>
+    </div>
+</header>
+<!--header部分结束-->
+<!--轮播开始-->
+<link rel="stylesheet" href="css/swiper.min.css">
+<div class="flash">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <video>
+                    <audio src="img/index3%20lb.mp4" autoplay loop></audio>
+                </video>
+                <img src="img/index3%20lb1.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/index3%20lb2.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/index3%20lb3.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/index3%20lb4.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/index3%20lb5.webp" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<!--引入swiper.js-->
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+       /* autoplay: true,*/
+        loop: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination'
+        }
+    })
+</script>
+<!--轮播结束-->
+</body>
+</html>

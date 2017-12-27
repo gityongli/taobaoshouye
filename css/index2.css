@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+}
+/*header部分开始*/
+header{
+    width:100%;
+    height: 1.066rem;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    text-align: center;
+}
+header div{
+    width: 10rem;
+    height: 1.066rem;
+    margin: 0 auto;
+}
+header div a{
+    width: 2.533rem;
+    height: 1.066rem;
+    display: inline-block;
+    line-height: 1.066rem;
+    font-size: 13px;
+    color:#64585a;
+}
+header div a:nth-child(1){
+    color:#e80909;
+}
+[data-dpr="2"] header div a{
+    font-size: 26px;
+}
+[data-dpr="3"] header div a{
+    font-size: 39px;
+}
+/*
+header部分结束*/
+/*轮播开始*/
+.flash{
+    width: 10rem;
+    height: 8.96rem;
+    margin: 0 auto;
+    position: relative;
+    top: 1.066rem;
+    overflow: hidden;
+}
+.flash .swiper-slide img{
+    width: 10rem;
+    height: 8.96rem;
+}
+.flash video{
+    width:1.52rem;
+    height:1.52rem;
+    background: url("../img/index3%20on.png") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.flash video audio{
+    width: 10rem;
+    height: 8.96rem;
+    background: red;
+    z-index: 3;
+}
+/*轮播结束*/
