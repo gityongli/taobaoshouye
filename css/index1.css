@@ -148,7 +148,7 @@ section .list1 p{
 [data-dpr="3"] section .list1 p{
     font-size: 39px;
 }
-.hover{
+#hover{
     position: absolute;
     box-sizing: border-box;
     display: flex;
