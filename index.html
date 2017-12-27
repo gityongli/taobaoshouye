@@ -288,14 +288,18 @@
         </div>
     </div>
     <div> <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination" id="swiper-pagination"></div>
     </div>
 </div>
 <script src="js/swiper.min.js"></script>
 <script>
     var mySwiper = new Swiper('.swiper-container', {
         loop: true,
-        autoplay: true
+        autoplay: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination'
+        }
     })
 </script>
 <!--每日好店结束-->
