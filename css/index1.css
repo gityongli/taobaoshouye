@@ -148,7 +148,7 @@ section .list1 p{
 [data-dpr="3"] section .list1 p{
     font-size: 39px;
 }
-.hua{
+.hover{
     position: absolute;
     box-sizing: border-box;
     display: flex;
@@ -159,10 +159,8 @@ section .list1 p{
     width: 2rem;
     height: 0.04rem;
     transform: translateX(0px);
-    transition: transform .3s ease;
+    transition: transform 3s ease;
     background-color: rgb(255, 80, 0);
-
-
 }
 /*为您推荐部分结束*/
 
