@@ -408,6 +408,7 @@ aside .right .right-bottom .rb2{
 .two4{
 	width: 10rem;
 	height: 5.906rem;
+	background: #fff;
 }
 .two4 ul li{
 	float:left;
@@ -860,7 +861,6 @@ aside .right .right-bottom .rb2{
 	color: red;
 	width: 10rem;
 	height: 0.2rem;
-	margin: 0 auto;
 }
 
 /*每日好店部分结束*/
