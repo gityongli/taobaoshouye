@@ -1,4 +1,4 @@
-function li1() {
+/*function li1() {
     document.getElementById("hover").style.transform = "translateX(0px)";
 }
 function li2() {
@@ -12,6 +12,6 @@ function li4() {
 }
 function li5() {
     document.getElementById("hover").style.transform = "translateX(6.8rem)";
-}
+}*/
 
 
