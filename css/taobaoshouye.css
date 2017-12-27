@@ -26,7 +26,8 @@ header div.logo{
 
 }
 header div.logo a{
-	width: 8.826rem;
+	/*width: 8.826rem;*/
+	width: 88%;
 	height: 0.666rem;
 	background: #b52600;
 	display: inline-block;
@@ -891,7 +892,7 @@ aside .right .right-bottom .rb2{
 	font-size: 39px;
 }
 .five1 p:nth-child(1){
-	margin-left:3.7rem;
+	margin-left:4rem;
 }
 .five1 p:nth-child(2){
 	text-align: center;
@@ -925,6 +926,7 @@ aside .right .right-bottom .rb2{
 	color: #666666;
 	background-color: transparent;
 	margin: 0.188rem 0.313rem;
+
 }
 [data-dpr="2"] .guess1 .guess1p{
 	font-size:26px;
@@ -1240,7 +1242,7 @@ aside .right .right-bottom .rb2{
 	background-color: #555965;
 	padding: 0 0.468rem;
 	border-radius: 0.16rem;
-	margin-left: 0.4rem;
+	margin-left: 0.45rem;
 	margin-top: 0.5rem;
 }
 .login .bottom{
