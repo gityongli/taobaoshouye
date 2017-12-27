@@ -148,7 +148,7 @@ section .list1 p{
 [data-dpr="3"] section .list1 p{
     font-size: 39px;
 }
-#hover{
+.hua{
     position: absolute;
     box-sizing: border-box;
     display: flex;
@@ -156,10 +156,13 @@ section .list1 p{
     flex-direction: column;
     z-index: 1001;
     bottom: 10px;
-    height: 0.04rem;
-    transition: all 0.3s ease-out;
-    background-color: rgb(255, 80, 0);
     width: 2rem;
+    height: 0.04rem;
+    transform: translateX(0px);
+    transition: transform .3s ease;
+    background-color: rgb(255, 80, 0);
+
+
 }
 /*为您推荐部分结束*/
 
