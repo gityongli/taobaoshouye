@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--引入flexible插件-->
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <!--引入矢量图标css-->
+    <link rel="stylesheet" href="css/iconfont.css">
+    <!--引入taobao.css-->
+    <link rel="stylesheet" href="css/taobaoshouye.css">
+</head>
+<body>
+<!--头部开始-->
+<header>
+    <div class="logo">
+        <a href="javascript:;">
+            <i class="iconfont icon-fangdajing"></i>
+            寻找宝贝店铺
+        </a>
+    </div>
+</header>
+<!--头部结束-->
+<!--轮播开始-->
+<!--引入swiper.css-->
+<link rel="stylesheet" href="css/swiper.min.css">
+<div class="flash">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/lb1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb8.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<!--引入swiper.js-->
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination'
+        }
+    })
+</script>
+<!--轮播结束-->
+<!--天猫聚划算等等区域开始-->
+<div class="main">
+    <div class="content">
+        <ul>
+            <li>
+                <a href="list.html">
+                    <img src="img/li1.png" alt="">
+                    <p>天猫</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li2.png" alt="">
+                    <p>聚划算</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li3.png" alt="">
+                    <p>天猫国际</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li4.png" alt="">
+                    <p>外卖</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li5.png" alt="">
+                    <p>天猫超市</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li6.png" alt="">
+                    <p>充值中心</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li7.png" alt="">
+                    <p>飞猪旅行</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li8.png" alt="">
+                    <p>领金币</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li9.png" alt="">
+                    <p>拍卖</p>
+                </a>
+            </li>
+            <li>
+                <a href="list.html">
+                    <img src="img/li10.png" alt="">
+                    <p>分类</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--天猫聚划算等等区域结束-->
+<!--淘宝头条开始-->
+<article>
+    <div class="article-left">
+        <img src="img/tb1.jpg" alt="">
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <span class="span1">围观</span>
+                <span class="span2">如何让衣服看起来很贵&nbsp;&nbsp;&nbsp;第二个很少看的</span>
+            </div>
+            <div class="swiper-slide">
+                <span class="span1">美搭</span>
+                <span class="span2">韩剧女主看起来为什么那么干净？这是一</span>
+            </div>
+            <div class="swiper-slide">
+                <span class="span1">手机</span>
+                <span class="span2">小米新品售价119元&nbsp;&nbsp;冬日必备产品选择</span>
+            </div>
+            <div class="swiper-slide">
+                <span class="span1">居家</span>
+                <span class="span2">旧袜子别只会扔，剪一刀剩下一堆有好处</span>
+            </div>
+            <div class="swiper-slide">
+                <span class="span1">热文</span>
+                <span class="span2">洗了20年碗，才知道水池旁的那个小洞的</span>
+            </div>
+        </div>
+    </div>
+</article>
+
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: true
+    })
+</script>
+<!--淘宝头条结束-->
+<!--淘抢购开始-->
+<aside>
+    <div class="left">
+        <div data-ctrl-name="counter" data-enddate="Fri Dec 22 2017 16:59:59 GMT+0800 (中国标准时间)" class="time">
+            <span role="h" class="hours">00</span>
+            <span class="dot">:</span>
+            <span role="m" class="minutes">24</span>
+            <span class="dot">:</span>
+            <span role="s" class="seconds">28</span>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right-top">
+            <div class="rt1"></div>
+            <div class="rt2"></div>
+        </div>
+        <div class="right-bottom">
+            <div class="rb1"></div>
+            <div class="rb2"></div>
+        </div>
+    </div>
+</aside>
+<!--淘抢购结束-->
+<!--超实惠开始-->
+<div class="two">
+    <div class="two1">
+        <p>
+            <img src="img/two1.png" alt="">
+            <span>超实惠</span>
+        </p>
+    </div>
+    <div class="two2">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="two3">
+        <p>
+            <img src="img/three1.png" alt="">
+            <span>天猫必逛</span>
+        </p>
+    </div>
+    <div class="two4">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<!--超实惠结束-->
+<!--特色好货开始-->
+<div class="three">
+    <div class="three1">
+        <p>
+            <img src="img/31.png" alt="">
+            <span>特色好货</span>
+        </p>
+    </div>
+    <div class="three2">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="three3">
+        <div class="top">
+            <p>更多<i></i></p>
+        </div>
+    </div>
+    <div class="three4"></div>
+</div>
+<!--特色好货结束-->
+<!--每日好店开始-->
+<div class="four">
+    <div class="four1">
+        <p><span>每日好店</span><span>更多</span></p>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="four2"></div>
+                <div class="four3"></div>
+                <div class="four4"></div>
+                <div class="four5"></div>
+                <div class="four6"></div>
+                <div class="four7"></div>
+                <div class="four8">
+                    <ul>
+                        <li>今日推荐</li>
+                        <li>包包控</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="four22"></div>
+                <div class="four33"></div>
+                <div class="four44"></div>
+                <div class="four55"></div>
+                <div class="four66"></div>
+                <div class="four77"></div>
+                <div class="four8">
+                    <ul>
+                        <li>今日推荐</li>
+                        <li>有逼格</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div> <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: true
+    })
+</script>
+<!--每日好店结束-->
+<!--猜你喜欢部分开始-->
+<div class="five">
+    <div class="five1">
+        <p>
+            <img src="img/five1.png" alt="">
+            <span>猜你喜欢</span>
+        </p>
+        <p>实时推荐你最喜欢的宝贝</p>
+    </div>
+    <div class="five2">
+        <div class="guess1">
+            <div></div>
+            <p class="guess1p">【为你推荐】双床兔打孔吹风机架子吸盘式吹风筒架壁挂卫</p>
+            <p class="guess1pm">￥25.0</p>
+        </div>
+        <div class="guess2">
+            <div></div>
+            <p class="guess1p">【为你推荐】居家草编桌面收纳盒零食钥匙遥控器口红化妆品</p>
+            <p class="guess1pm">￥28.0</p>
+        </div>
+        <div class="guess3">
+            <div></div>
+            <p class="guess1p">【为你推荐】葱花剪刀锋利厨房用品 不锈钢葱花剪紫菜</p>
+            <p class="guess1pm">￥16.8</p>
+        </div>
+        <div class="guess4">
+            <div></div>
+            <p class="guess1p">【为你推荐】天然手工海草编桌收纳盒 有盖收纳箱 清收篮</p>
+            <p class="guess1pm">￥20.96</p>
+        </div>
+        <div class="guess5">
+            <div></div>
+            <p class="guess1p">【为你推荐】【天天特价】洗澡神器长柄洗澡刷 搓背按摩沐浴</p>
+            <p class="guess1pm">￥25.8</p>
+        </div>
+        <div class="guess6">
+            <div></div>
+            <p class="guess1p">【为你推荐】冬季水貂绒单件被套加厚羊羔绒保暖珊瑚绒法兰</p>
+            <p class="guess1pm">￥148.0</p>
+        </div>
+        <div class="guess7">
+            <div></div>
+            <p class="guess1p">【为你推荐】九口山X原本生活 井田制 井冠系列B6半年本松</p>
+            <p class="guess1pm">￥88.0</p>
+        </div>
+        <div class="guess8">
+            <div></div>
+            <p class="guess1p">【为你推荐】包邮diy彩虹海洋星云许愿瓶材料创意生日礼品好</p>
+            <p class="guess1pm">￥29.9</p>
+        </div>
+        <div class="guess9">
+            <div></div>
+            <p class="guess1p">【为你推荐】卡其魔进口抹布不掉毛擦桌子神器镜子玻璃毛巾</p>
+            <p class="guess1pm">￥39.0</p>
+        </div>
+        <div class="guess10">
+            <div></div>
+            <p class="guess1p">【为你推荐】秋冬新款领可拆男女睡觉保暖护肩产妇中老年</p>
+            <p class="guess1pm">￥35.0</p>
+        </div>
+    </div>
+</div>
+<!--猜你喜欢部分结束-->
+<!--登录注册部分-->
+<div class="login">
+    <div class="buttons">
+        <a href="javascript:;">登录</a>
+        <a href="javascript:;">注册</a>
+        <a href="javascript:;">电脑版</a>
+        <a href="javascript:;">用户反馈</a>
+    </div>
+    <div class="bottom">
+        &copy;2016 浙 B2-20080224
+        <a>服务中心</a>
+    </div>
+</div>
+<!--登录注册部分结束-->
+
+<!--footer部分开始-->
+<script src="js/iconfont.js"></script>
+<footer>
+    <a href="javascript:;">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-shouye"></use>
+        </svg>
+        <p>首页</p>
+    </a>
+    <a href="javascript:;">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-buoumaotubiao39"></use>
+        </svg>
+        <p>物流</p>
+    </a>
+    <a href="javascript:;">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-gouwuchekong"></use>
+        </svg>
+        <p>购物车</p>
+    </a>
+    <a href="javascript:;">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-wode"></use>
+        </svg>
+        <p>我的淘宝</p>
+    </a>
+    <a href="javascript:;">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-gengduo"></use>
+        </svg>
+        <p>更多</p>
+    </a>
+</footer>
+<!--footer部分结束-->
+
+
+</body>
+</html>
