@@ -118,7 +118,7 @@ article .main1 .main1-left ul li:nth-child(3) p span{
     position: absolute;
     line-height: 0.5rem;
     text-decoration: line-through;
-    text-decoration-color: black;
+    text-decoration-color: #fff;
 }
 article .main1 .main1-right{
     width: 2.334rem;
@@ -140,8 +140,6 @@ article .main1 .main1-right p{
     font-size:39px;
 }
 .clockrun{
-    width: 1.973rem;
-    height: 0.466rem;
     margin-left: 0.3rem;
     margin-top: 0.4rem;
     color:#ffffff;
@@ -149,20 +147,20 @@ article .main1 .main1-right p{
     line-height: 0.466rem;
 }
 .clockrun .num{
-    width: 0.413rem;
-    height: 0.413rem;
+    width: 0.4rem;
+    height: 0.4rem;
     background:#4f0000;
     float: left;
     text-align: center;
     line-height: 0.413rem;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 14px;
 }
 [data-dpt="2"] .clockrun .num{
-    font-size: 36px;
+    font-size: 28px;
 }
 [data-dpt="3"] .clockrun .num{
-    font-size: 54px;
+    font-size: 44px;
 }
 .clockrun .dot{
     float: left;
@@ -290,10 +288,10 @@ article .main1 .main1-right p{
     font-size:34px;
     color:#e60000;
 }
-[dada-dpr="2"] .main4 p{
+[dada-dpr="2"] .main5 p{
     font-size: 64px;
 }
-[dada-dpr="3"] .main4 p{
+[dada-dpr="3"] .main5 p{
     font-size: 98px;
 }
 .main6{
@@ -302,6 +300,10 @@ article .main1 .main1-right p{
     position: relative;
     top:1.0688rem;
     background: #fff;
+}
+.main6 img{
+    width: 0.266rem;
+    height: 0.266rem;
 }
 .main6 p{
     margin-left: 0.24rem;
