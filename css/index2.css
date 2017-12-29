@@ -671,7 +671,71 @@ footer{
 footer .footer{
     width: 10rem;
     height: 1.2rem;
-    background: red;
     margin: 0 auto;
+}
+footer .footer a{
+    float:left;
+    display: block;
+    color:#fff;
+    text-align: center;
+    line-height: 1.2rem;
+}
+footer .footer a:nth-child(1){
+    width: 3.4rem;
+    height: 1.2rem;
+    background: #ff9402;
+}
+footer .footer a:nth-child(2){
+    width: 4.666rem;
+    height: 1.2rem;
+    background:#e61414;
+}
+footer .footer a:nth-child(3){
+    width: 1.933rem;
+    height: 1.2rem;
+    background:#e61414;
+}
+footer .footer .footer-span1{
+    margin-left: 0.6rem;
+}
+footer .footer .footer-span2{
+    color:#fbf4eb;
+    position: absolute;
+    left:3.733rem;
+}
+footer .footer .footer-span3{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+[data-dpr="2"] footer .footer .footer-span3{
+    font-size:40px;
+}
+[data-dpr="3"] footer .footer .footer-span3{
+    font-size:60px;
+}
+.icon{
+    font-size: 16px;
+    width: 0.533rem;
+    height: 0.533rem;
+    position: absolute;
+    top:0.4rem;
+    left:0.366rem;
+
+}
+[data-dpr="2"] footer a .icon{
+    font-size: 32px;
+}
+[data-dpr="3"] footer a .icon{
+    font-size: 48px;
+}
+footer a span{
+    font-size: 14px;
+}
+[data-dpr="2"] footer a span{
+    font-size: 28px;
+}
+[data-dpr="3"] footer a span{
+    font-size: 42px;
 }
 /*footer部分结束*/
